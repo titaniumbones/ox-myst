@@ -6,13 +6,15 @@ Org mode. It should support the features [listed here](https://help.github.com/a
 
 ## Installation
 
-You can install `ox-myst` using elpa. It's available on [melpa](http://melpa.org/#/ox-myst):
+# You can install `ox-myst` using elpa. It's available on [melpa](http://melpa.org/#/ox-myst):
 
-<kbd> M-x package-install ox-myst </kbd>
+# <kbd> M-x package-install ox-myst </kbd>
+
+Not available anywhere yet -- you'll need to load manually for now. 
 
 ## Usage
 
-This package adds an Org mode export backend for GitHub Flavored Markdown. You
+This package adds an Org mode export backend for Myst Markdown. You
 can read more about [Org mode exporting here.](http://orgmode.org/manual/Exporting.html)
 
 Exporting to Myst Markdown is available through Org
