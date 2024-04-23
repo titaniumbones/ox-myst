@@ -139,8 +139,10 @@ _CONTENTS is nil.  INFO is a plist used as a communication
 channel.  Temporarily setting notebook language statically"
   (let* ((lang (org-element-property :language src-block))
          (code (org-export-format-code-default src-block info))
-         (lang-fix (if (string-match-p "python" lang)
-                       "{code-cell}" lang))
+         (lang-fix (if (or  (string-match-p "python" lang)
+                            (string-match-p "{code-cell}" lang))
+                       "{code-cell} ipython3"
+                     lang))
          (prefix (concat "```" lang-fix "\n"))
          (suffix "```"))
     
