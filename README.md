@@ -16,9 +16,9 @@ There are plenty of other features you might want to use; features shared with g
 
 ## Installation
 
-# You can install `ox-myst` using elpa. It's available on [melpa](http://melpa.org/#/ox-myst):
+<!-- # You can install `ox-myst` using elpa. It's available on [melpa](http://melpa.org/#/ox-myst): -->
 
-# <kbd> M-x package-install ox-myst </kbd>
+<!-- # <kbd> M-x package-install ox-myst </kbd> -->
 
 Not available anywhere yet -- you'll need to load manually for now. 
 
